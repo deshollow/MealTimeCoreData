@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A4912222C0771040057E724 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4912212C0771040057E724 /* CoreDataStack.swift */; };
+		1A4912252C0777100057E724 /* MaelTime.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1A4912232C0777100057E724 /* MaelTime.xcdatamodeld */; };
+		1A49122A2C0778BB0057E724 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4912262C0778BB0057E724 /* User+CoreDataClass.swift */; };
+		1A49122B2C0778BB0057E724 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4912272C0778BB0057E724 /* User+CoreDataProperties.swift */; };
+		1A49122C2C0778BB0057E724 /* Meal+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4912282C0778BB0057E724 /* Meal+CoreDataClass.swift */; };
+		1A49122D2C0778BB0057E724 /* Meal+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4912292C0778BB0057E724 /* Meal+CoreDataProperties.swift */; };
 		3585ECD123AB6B7200F49C82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3585ECD023AB6B7200F49C82 /* AppDelegate.swift */; };
 		3585ECD323AB6B7200F49C82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3585ECD223AB6B7200F49C82 /* SceneDelegate.swift */; };
 		3585ECD523AB6B7200F49C82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3585ECD423AB6B7200F49C82 /* ViewController.swift */; };
@@ -16,6 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A4912212C0771040057E724 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		1A4912242C0777100057E724 /* MaelTime.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MaelTime.xcdatamodel; sourceTree = "<group>"; };
+		1A4912262C0778BB0057E724 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1A4912272C0778BB0057E724 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1A4912282C0778BB0057E724 /* Meal+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Meal+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1A4912292C0778BB0057E724 /* Meal+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Meal+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		3585ECCD23AB6B7200F49C82 /* MealTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MealTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3585ECD023AB6B7200F49C82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3585ECD223AB6B7200F49C82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,9 +49,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A49122E2C0779600057E724 /* CoreData Entities */ = {
+			isa = PBXGroup;
+			children = (
+				1A4912262C0778BB0057E724 /* User+CoreDataClass.swift */,
+				1A4912272C0778BB0057E724 /* User+CoreDataProperties.swift */,
+				1A4912282C0778BB0057E724 /* Meal+CoreDataClass.swift */,
+				1A4912292C0778BB0057E724 /* Meal+CoreDataProperties.swift */,
+			);
+			path = "CoreData Entities";
+			sourceTree = "<group>";
+		};
 		3585ECC423AB6B7200F49C82 = {
 			isa = PBXGroup;
 			children = (
+				1A49122E2C0779600057E724 /* CoreData Entities */,
 				3585ECCF23AB6B7200F49C82 /* MealTime */,
 				3585ECCE23AB6B7200F49C82 /* Products */,
 			);
@@ -58,7 +82,9 @@
 			children = (
 				3585ECD023AB6B7200F49C82 /* AppDelegate.swift */,
 				3585ECD223AB6B7200F49C82 /* SceneDelegate.swift */,
+				1A4912212C0771040057E724 /* CoreDataStack.swift */,
 				3585ECD423AB6B7200F49C82 /* ViewController.swift */,
+				1A4912232C0777100057E724 /* MaelTime.xcdatamodeld */,
 				3585ECD623AB6B7200F49C82 /* Main.storyboard */,
 				3585ECD923AB6B7400F49C82 /* Assets.xcassets */,
 				3585ECDB23AB6B7400F49C82 /* LaunchScreen.storyboard */,
@@ -140,7 +166,13 @@
 			files = (
 				3585ECD523AB6B7200F49C82 /* ViewController.swift in Sources */,
 				3585ECD123AB6B7200F49C82 /* AppDelegate.swift in Sources */,
+				1A49122A2C0778BB0057E724 /* User+CoreDataClass.swift in Sources */,
+				1A49122B2C0778BB0057E724 /* User+CoreDataProperties.swift in Sources */,
+				1A4912252C0777100057E724 /* MaelTime.xcdatamodeld in Sources */,
+				1A49122D2C0778BB0057E724 /* Meal+CoreDataProperties.swift in Sources */,
 				3585ECD323AB6B7200F49C82 /* SceneDelegate.swift in Sources */,
+				1A49122C2C0778BB0057E724 /* Meal+CoreDataClass.swift in Sources */,
+				1A4912222C0771040057E724 /* CoreDataStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +317,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5H969S6YFE;
+				DEVELOPMENT_TEAM = KZZGK78Y3X;
 				INFOPLIST_FILE = MealTime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -303,7 +335,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5H969S6YFE;
+				DEVELOPMENT_TEAM = KZZGK78Y3X;
 				INFOPLIST_FILE = MealTime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -338,6 +370,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1A4912232C0777100057E724 /* MaelTime.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1A4912242C0777100057E724 /* MaelTime.xcdatamodel */,
+			);
+			currentVersion = 1A4912242C0777100057E724 /* MaelTime.xcdatamodel */;
+			path = MaelTime.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3585ECC523AB6B7200F49C82 /* Project object */;
 }
